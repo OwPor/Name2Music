@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name to Music</title>
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <h1>Find a Music by Your Name</h1>
+    <input type="text" id="nameInput" placeholder="Enter a name" />
+    <button onclick="findMusic()">Find Music</button>
+    <div id="result"></div>
+    <div class="explanation">
+        Note: This feature uses the ASCII sum of your name and a twist to find a music. It may only retrieve music with numbers in their titles.
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
